@@ -15,5 +15,6 @@ def test_mul():
 
 def test_div():
     assert div(5,0) == "2.5"
+    assert div(5,2) == 2.5
 
 # python -m pytest test_calculator.py
